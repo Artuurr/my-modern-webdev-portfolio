@@ -1,0 +1,38 @@
+@include desktop{
+  body{
+    #bg{
+      clip-path: polygon(0 0, 75% 0, 55% 100%, 0% 100%);
+    }
+
+    main{
+      display: grid;
+      grid-template-columns: 50% auto;
+      grid-template-areas: "primary card";
+
+      section#card{
+        grid-area: card;
+        height: fit-content;
+        align-self: center;
+        margin-right: 1em;
+      }
+
+      section#primary{
+        grid-area: primary;
+        text-align: left;
+        margin: 4em 0 0 4em;
+
+        h1{
+          width: 30%;
+          font-size: 4em;
+          line-height: .9em;
+        }
+
+        a{
+          display: inline-block;
+          padding: $padding $padding*4;
+        }
+      }
+    }
+  }
+
+}
