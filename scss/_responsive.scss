@@ -35,4 +35,30 @@
     }
   }
 
+  //Página Sobre Mim
+  body#sobre-mim{
+
+    section#card{
+      margin-top: 2rem;
+      padding: 30px;
+
+      p{
+        line-height: 1.3rem;
+      }
+    }
+  }
+
+  //Página Contato
+  body#contato{
+
+    main{
+
+      section#primary{
+
+        a{
+          width: 100px;
+        }
+      }
+    }
+  }
 }

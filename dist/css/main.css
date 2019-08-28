@@ -19,6 +19,10 @@ body {
     display: block;
     text-decoration: uppercase; }
 
+main a {
+  text-decoration: none;
+  color: inherit; }
+
 main section#card {
   background: #fff;
   padding: 20px;
@@ -56,7 +60,7 @@ main section#primary {
     background-color: #fff6bb;
     display: block;
     text-align: center;
-    margin: 50px auto 0 auto;
+    margin: 30px auto 0 auto;
     padding: 15px; }
 
 @media (min-width: 840px) {
@@ -81,4 +85,11 @@ main section#primary {
         line-height: .9em; }
       body main section#primary a {
         display: inline-block;
-        padding: 15px 60px; } }
+        padding: 15px 60px; }
+  body#sobre-mim section#card {
+    margin-top: 2rem;
+    padding: 30px; }
+    body#sobre-mim section#card p {
+      line-height: 1.3rem; }
+  body#contato main section#primary a {
+    width: 100px; } }
