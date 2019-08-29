@@ -32,9 +32,14 @@ body{
   font-family: 'Montserrat';
   margin: 0;
 
+  a{
+    text-decoration: none;
+    color: inherit;
+  } 
+
   #bg{
     clip-path: polygon(100% 0, 100% 82%, 45% 100%, 0 100%, 0 0);
-    background-color: color(primary);
+    background: $backgroundgradient;
     width: 100%;
     height: 100%;
     position: absolute;
@@ -61,11 +66,6 @@ main{
   //   grid-template-columns: 50% auto;
   //   grid-template-areas: "primary card";
   // }
-
-  a{
-    text-decoration: none;
-    color: inherit;
-  }
 
   section#card{
     background: #fff;
