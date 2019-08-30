@@ -30,6 +30,12 @@ main section#card {
   border-radius: 15px;
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
   width: 80%; }
+  main section#card img.logo-clientes {
+    width: 100%;
+    max-width: 200px;
+    height: auto;
+    margin-right: 1em;
+    margin-bottom: 1em; }
   main section#card ul {
     list-style-type: none;
     margin: 0;
