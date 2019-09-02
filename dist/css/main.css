@@ -30,6 +30,10 @@ main section#card {
   border-radius: 15px;
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
   width: 80%; }
+  main section#card a {
+    transition: 0.3s; }
+    main section#card a:hover {
+      color: #107E7D; }
   main section#card img.logo-clientes {
     width: 100%;
     max-width: 200px;
@@ -74,7 +78,10 @@ main section#primary {
     display: block;
     text-align: center;
     margin: 30px auto 0 auto;
-    padding: 15px; }
+    padding: 15px;
+    transition: .3s; }
+    main section#primary a:hover {
+      background-color: #107E7D; }
 
 @media (min-width: 840px) {
   body #bg {
